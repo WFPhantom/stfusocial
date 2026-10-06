@@ -13,24 +13,14 @@
     },
     "license": "${license}",
     "icon": "${logo}",
-    "environment": "*",
-    "entrypoints": {
-        "main": [
-            "com.example.examplemod.ExampleMod"
-        ]
-    },
+    "environment": "client",
     "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
+        "${mod_id}.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
-        "fabric-api": "*",
         "minecraft": "~${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
   

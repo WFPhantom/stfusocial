@@ -43,7 +43,6 @@ tasks.named<ProcessResources>("processResources") {
         "minecraft_version" to "minecraft_version"(),
         "minecraft_version_range" to "minecraft_version_range"(),
         "fabric_loader_version" to "fabric_loader_version"(),
-        "fabric_api_version" to "fabric_api_version"(),
         "neoforge_version" to "neoforge_version"(),
         "mod_name" to "mod_name"(),
         "mod_authors" to "mod_authors"(),

@@ -7,8 +7,6 @@ dependencies {
     minecraft("com.mojang:minecraft:${"minecraft_version"()}")
     mappings(loom.officialMojangMappings())
     modImplementation("net.fabricmc:fabric-loader:${"fabric_loader_version"()}")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:${"fabric_api_version"()}") // Optional
-    // implementation("net.fabricmc:fabric-language-kotlin:${"fabric_kotlin_version"()}") // Optional
 }
 
 loom {

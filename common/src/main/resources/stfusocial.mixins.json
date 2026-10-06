@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "com.wfphantom.stfusocial.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
   "client": [
-    "MixinMinecraft"
+    "OptionsAccessor",
+    "OptionsMixin",
+    "ToastComponentMixin"
   ],
-  "server": [],
   "injectors": {
     "defaultRequire": 1
   },
